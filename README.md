@@ -1,4 +1,4 @@
-# Hospital Simulation Rules
+# Hospital Simulation
 
 This document outlines the operational rules for the hospital simulation implemented in the Jupyter notebook. The rules govern patient arrivals, evaluation, bed allocation, queue management, rejection criteria, discharge, system monitoring, and visualization. The `patient_flow` function is the core component managing patient admission, and detailed explanations highlight its role.
 
@@ -121,16 +121,14 @@ This document outlines the operational rules for the hospital simulation impleme
 - **Interaction with `patient_flow`**: The `patient_flow` function’s updates to `beds.bed_status` and queue usage feed into these metrics, tracked in `df_hourly`.
 
 ### 8. Visualization and Statistical Plots
-- **Overview**: The simulation includes an animation and six statistical plots to visualize hospital operations and patient outcomes, using data from `df_patients` and `df_hourly`. These visualizations help understand bed usage, patient flow, and system performance.
+- **Overview**: The simulation includes an animation and four statistical plots to visualize hospital operations and patient outcomes, using data from `df_patients` and `df_hourly`. These visualizations help understand bed usage, patient flow, and system performance.
 - **Bed Allocation Animation**:
   - **Description**: A dynamic animation shows bed occupancy and queue status over time. Beds are represented as rectangles (red for occupied, green for available), queue positions as yellow dots, and text displays the current hour, day, occupancy, queue length, and number of rejected patients.
   - **Purpose**: Visualizes how beds are allocated and freed, highlighting busy periods and queue dynamics. Useful for observing real-time hospital resource management.
--
 
 ## Patient Admission Flowchart
 
 The flowchart illustrating the patient admission process, managed by the `patient_flow` function.
-
 
 ![Activity Diagram](activity_diagram.jpg) 
 
