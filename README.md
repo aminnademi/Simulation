@@ -130,6 +130,6 @@ This document outlines the operational rules for the hospital simulation impleme
 
 The flowchart illustrating the patient admission process, managed by the `patient_flow` function.
 
-![Activity Diagram](activity_diagram.jpg) 
+![Activity Diagram](schema/activity_diagram.jpg) 
 
 
