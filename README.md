@@ -131,6 +131,7 @@ This document outlines the operational rules for the hospital simulation impleme
 
 The flowchart illustrating the patient admission process, managed by the `patient_flow` function.
 
-**Image Path**: `activity_diagram.jgp`  
+
+![Activity Diagram](activity_diagram.jpg) 
 
 
